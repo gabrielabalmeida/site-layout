@@ -1,0 +1,62 @@
+html{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #008080 15%, #16e8e8 );
+}
+
+.imgcontainer{
+  width: 600px;
+  height: auto;
+  background: white;
+  top:50%;
+  left:50%;
+  position: absolute;
+  margin-top: -280px;
+  margin-left: -300px;
+  border: 3px solid #008080;
+  border-radius: 30px 30px 30px 30px;
+}
+.avatar{
+  border-radius: 50%;
+  margin-left: 35%;
+  margin-top: 30px;
+  width: 180px;
+  height: 180px;
+}
+
+.container{
+  display: block;
+  padding: 16px;
+}
+
+button{
+  background-color: #008080;
+    border-radius: 30px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button:hover{
+  opacity: 0.8;
+  transition: opacity 1s;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  margin-top: 30px;
+}

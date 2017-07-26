@@ -1,0 +1,346 @@
+header {
+  margin: auto;
+  width: 100%;
+  height: 125px;
+  background-image: linear-gradient(to bottom, white 25%, lightblue);
+}
+
+.listaadireita {
+  float: right;
+}
+
+.portalaluno {
+  margin-right: 200px;
+  margin-top: 40px;
+  text-align: justify;
+  display: block;
+}
+
+.portalprofessor {
+  margin-right: 200px;
+  margin-top: 10px;
+  text-align: justify;
+  display: block;
+}
+
+.logo {
+  padding-left: 150px;
+}
+
+nav {
+  display: inline;
+  width: 100%;
+  text-align: center;
+
+}
+
+.menu1 {
+  margin-left: 0px;
+  display: inline;
+}
+
+.menu2 {
+  margin-left: 80px;
+  display: inline;
+}
+
+.menu3 {
+  margin-left: 80px;
+  display: inline;
+}
+
+.menu4 {
+  margin-left: 80px;
+  display: inline;
+}
+.voltar{
+  float:left;
+}
+.t{
+  font-weight: bold;
+}
+.avancar{
+  float: right;
+}
+
+
+.carrossel {
+  margin: auto;
+  margin-top: 0px;
+  border-radius: 15px;
+  height: 325px;
+  width: 1000px;
+}
+
+
+.wall-1 {
+  font-size: 12px;
+}
+
+.pad50 {
+  margin-top: 50px;
+}
+
+
+.secao {
+  padding-top: 40px;
+  height: 300px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.mural2 {
+  margin: 40px;
+}
+
+.secao2 {
+  padding-top: 1px;
+  height: 120px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+footer {
+  border-top: 2px solid black;
+  background-color: #008080;
+  height: 40px;
+  margin: auto;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+footer p {
+  margin-left: 35px;
+  margin-top: 15px;
+}
+
+.bg {
+  background-color: #008080;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid black;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 2px 1px #000000;
+}
+
+a:hover {
+  opacity: 0.88;
+  transition: opacity 1s;
+  color: #12e2f6;
+  transition: color 1s;
+}
+
+.mural:hover {
+  opacity: 0.88;
+  transition: opacity 1s;
+}
+
+.portalaluno a {
+  border-radius: 13px 3px 13px 3px;
+}
+
+.portalprofessor a {
+  border-radius: 13px 3px 13px 3px;
+}
+
+.wall-1 a {
+  border-radius: 13px 3px 13px 3px;
+}
+
+.wall-2 a {
+  border-radius: 13px 3px 13px 3px;
+}
+
+.wall-3 a {
+  border-radius: 13px 3px 13px 3px;
+}
+
+li a {
+  border-radius: 13px 3px 13px 3px;
+}
+
+#pravaler img{
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 350px;
+  height: 300px;
+}
+
+
+.mural:hover img {
+
+  transform: scale(1.1);
+    transition: transform 1s;
+}
+
+body {
+  background-image: url("../img/fundo.jpg");
+  background-repeat: repeat;
+}
+
+
+h1 {
+  font-family: 'Open Sans';
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+form, input, select, textarea {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+div.box {
+  margin:0 auto;
+  width: 500px;
+  background: #22222;
+  position: relative;
+  top: 50px;
+  border: 1px solid #22222;
+}
+
+div.box h1{
+  color: #008686;
+  background: rgba(#d5d5d5, 1);
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 5px 0 5px 5px;
+}
+
+div.box label{
+  width: 100%;
+  display: block;
+  background: rgba(#d5d5d5, 1);
+  padding: 10px 0 10px 0;
+}
+
+div.box label span{
+  display: block;
+  color: #008686;
+  font-size: 12px;
+  float: left;
+  width: 100px;
+  text-align: right;
+  padding: 5px 20px 0 0;
+}
+
+div.box .input_text{
+  padding: 10px 10px;
+  width: 200px;
+  background: #ffffff;
+  border-top: 1px double #171717;
+  border-bottom: 1px double #171717;
+  border-left: 1px double #333333;
+  border-right: 1px double #333333;
+}
+
+div.box .message{
+  padding: 7px 7px;
+  width: 350px;
+  background: #ffffff;
+  border-bottom: 1px double #171717;
+  border-top: 1px double #171717;
+  border-left: 1px double #333333;
+  border-right: 1px double #333333;
+  overflow: hidden;
+  height: 150px;
+}
+
+div.box .button{
+  margin: 0 0 10px 0;
+  padding: 4px 7px;
+  background: #008686;
+  border: 0px;
+  position: relative;
+  top: 10px;
+  left: 382px;
+  width: 100px;
+  border-bottom: 1px double #008686;
+  border-top: 1px double #008686;
+  border-left: 1px double #00ffff;
+  border-right: 1px double #00ffff;
+}
+
+div.graduac{
+  padding-top: 30px;
+  height: 300px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+div.cursos{
+  height: 200px;
+  margin-left: 20px;
+}
+
+
+div.graduac h2{
+  text-align: center;
+  font-size:26px;
+	color:#0080ad;
+	letter-spacing:-0.08em;
+  margin-bottom: 10px;
+}
+
+
+ul.cursos li a{
+	color:#0f9eff;
+  text-decoration: none;
+}
+
+div.corpo h2, p{
+  text-align: center;
+}
+
+div.noticias {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size:21px;
+  text-align: center, justify;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+
+}
+
+ul.not li{
+  margin-top: 6px;
+}
+
+ul.not li a{
+  color: black;
+  text-decoration: none;
+}
+
+ul.not span{
+  margin-top: 5px;
+  color: #0f9eff;
+}
+
+
+.fonte{
+  font-family: 'Keania One', cursive;
+}

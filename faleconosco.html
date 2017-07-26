@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script type="text/javascript" src="js/index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <meta charset="utf-8" />
+    <title>IBTA - Centro Universitário</title>
+    <link href="https://fonts.googleapis.com/css?family=Keania+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/faleconosco.css">
+    <script src="js/faleconosco.js"></script>
+  </head>
+
+  <body onload="passa()">
+    <header  class="fonte">
+      <a href="index.html"><img class="logo" src="img/logo.png" alt="Logo do IBTA"></a>
+      <ul class="listaadireita">
+        <li class="portalaluno"><a class="bg" href="portais/aluno.html" target="_blank">Portal do Aluno</a></li>
+        <li class="portalprofessor"><a class="bg" href="portais/professor.html" target="_blank">Portal do Professor</a></li>
+      </ul>
+    </header>
+    <div class="carrossel">
+      <div class="wall wall-1" id="wall-1">
+        <img class="carrossel" id="muda" src="img/campanha11.png" alt="banner de transferencias do ibta" />
+        <a class="voltar bg t fonte" href="#" onclick="volta()"><</a>
+        <a class="avancar bg t fonte" href="#" onclick="avanca()">></a>
+      </div>
+    </div>
+    <nav class="pad50">
+      <ul  class="fonte">
+        <li class="menu1"><a class="bg" href="cursos.html">CURSOS</a></li>
+        <li class="menu2"><a class="bg" href="faleconosco.html">FALE CONOSCO</a></li>
+        <li class="menu3"><a class="bg" href="localizacao.html">LOCALIZAÇÃO</a></li>
+        <li class="menu4"><a class="bg" href="noticias.html">NOTÍCIAS</a></li>
+      </ul>
+    </nav>
+    <form name="meuForm" method="post" id="formulario">
+    	<div class="box">
+    		<h1>Mande sua Mensagem</h1>
+    		<label>
+    			<span>Nome Completo</span>
+     			<input type="text" class="input_text" name="nome" id="name"/>
+    		</label>
+    		<label>
+     			<span>Email</span>
+    			<input type="text" class="input_text" name="email" id="email"/>
+    	  </label>
+    		<label>
+     			<span>Assunto</span>
+    			<input type="text" class="input_text" name="assunto" id="subject"/>
+    		</label>
+    		<label>
+    			 <span>Mensagem</span>
+    			<textarea class="message" name="feedback" id="feedback"></textarea>
+    			<button onclick="enviar()" class="button">Enviar</button>
+        </label>
+    	</div>
+    </form>
+    <br><br><br><br><br><br><br>
+    <footer>
+      <p><code>/* <strong>IBTA</strong> - Instituto Brasileiro de Tecnologia Avançada, todos os direitos reservados. */</code>
+      </p>
+    </footer>
+  </body>
+</html>

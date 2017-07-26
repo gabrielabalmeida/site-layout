@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script type="text/javascript" src="js/index.js"></script>
+  <link rel="stylesheet" href="css/reset.css">
+  <meta charset="utf-8" />
+  <title>IBTA - Centro Universitário</title>
+  <link href="https://fonts.googleapis.com/css?family=Keania+One" rel="stylesheet">
+  <link rel="stylesheet" href="css/localizacao.css">
+</head>
+
+<body onload="passa()">
+  <header  class="fonte">
+    <a href="index.html"><img class="logo" src="img/logo.png" alt="Logo do IBTA"></a>
+    <ul class="listaadireita">
+      <li class="portalaluno"><a class="bg" href="portais/professor.html" target="_blank">Portal do Aluno</a></li>
+      <li class="portalprofessor"><a class="bg" href="portais/professor.html" target="_blank">Portal do Professor</a></li>
+    </ul>
+  </header>
+  <div class="carrossel">
+    <div class="wall wall-1" id="wall-1">
+      <img class="carrossel" id="muda" src="img/campanha11.png" alt="banner de transferencias do ibta" />
+      <a class="voltar bg t fonte" href="#" onclick="volta()">
+        <</a>
+          <a class="avancar bg t fonte" href="#" onclick="avanca()">></a>
+    </div>
+  </div>
+  <div>
+    <nav class="pad50">
+      <ul  class="fonte">
+        <li class="menu1"><a class="bg" href="cursos.html">CURSOS</a></li>
+        <li class="menu2"><a class="bg" href="faleconosco.html">FALE CONOSCO</a></li>
+        <li class="menu3"><a class="bg" href="localizacao.html">LOCALIZAÇÃO</a></li>
+        <li class="menu4"><a class="bg" href="noticias.html">NOTÍCIAS</a></li>
+      </ul>
+    </nav>
+    <div class="corpo">
+    <h1 title="Inscrições">Onde Estamos</h1>
+    	<br>
+
+    	<h2>Unidade Paulista</h2>
+
+    	<p>Av. Paulista, 302 - em frente ao metrô Brigadeiro<br>
+    	</p>
+    	<p>Seg a Sex – 12h30 às 21h<br>
+          Sab – 09h às 12h</p>
+    	<div id="display1" class="mapa1">
+    	<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.br/maps?ie=UTF8&amp;cid=17775340745988311295&amp;q=Faculdade+de+Tecnologia+IBTA&amp;gl=BR&amp;hl=pt-PT&amp;t=m&amp;ll=-23.566406,-46.645782&amp;spn=0.006884,0.013947&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe>
+      </div>
+      <div id="display2" clas="mapa2">
+      <small><a href="https://maps.google.com.br/maps?ie=UTF8&amp;cid=17775340745988311295&amp;q=Faculdade+de+Tecnologia+IBTA&amp;gl=BR&amp;hl=pt-PT&amp;t=m&amp;ll=-23.566406,-46.645782&amp;spn=0.006884,0.013947&amp;z=16&amp;iwloc=A&amp;source=embed">No Google Maps</a></small>
+      </div>
+    </div>
+    <footer>
+      <p>
+        <code>/* <strong>IBTA</strong> - Instituto Brasileiro de Tecnologia Avançada, todos os direitos reservados. */</code>
+      </p>
+    </footer>
+  </body>
+</html>
